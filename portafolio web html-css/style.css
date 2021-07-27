@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+/* Banner */
+.hero{
+    background: url(img/portada/optimizadas/jake-hills-mI02K_LxlfU-unsplash.jpg); 
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    
+ 
+}
+.hero:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+
+    background: linear-gradient(101.15deg, rgba(42, 197, 235, 0.52) 1.17%, rgba(37, 113, 146, 0.312) 97.54%);
+    
+}
+ .navbar-nav a{
+    color: white!important;
+    border-bottom: 1px solid transparent;
+    margin-right: 10px;
+    transition: .3s linear;
+}
+.navbar-nav a:last-of-type{
+    margin-right: 0;
+}
+.navbar-nav a:hover{
+   border-bottom: 1px solid white;
+  
+}
+.banner-box{
+    text-align: center;
+    margin-top: 200px;
+}
+div.texto-banner{
+    
+   
+    position: relative;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 15pt;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+.texto-banner p,h1 {
+  margin-bottom: 0;
+}
+
+/*Acerca de*/
+.card1{
+    background: none;
+    border: none;
+    text-align: center;
+    margin-top: -75px;
+}
+.card__cont-img{
+    display: flex;
+    justify-content: center;
+
+}
+.card__textos{
+    margin-top: 15px;
+}
+.card__titulo{
+    font-size: 24px;
+}
+.card__extracto{
+    font-size: 15px;
+}
+.card__img{
+    width: 150px;
+    height: 150px; 
+    background: url(img/portada/optimizadas/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 7px solid #ffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*Trabajos*/
+.cont-trabajo{
+    background-color: #f2f2f2;
+    margin-top: 70px;
+}
+.cont-trabajo__titulo{
+    font-size: 25px;
+}
+.trabajo__box{
+
+ padding: 10px!important;
+ 
+}
+.trabajo__img{
+    width: 100%;
+    
+}
+
+/*Contacto*/
+.contacto{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.contacto__titulo{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+
+/*footer*/
+
+.footer{
+    height: 200px;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociales__icon{
+    height: 60px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    
+}
+
+
+.redes-sociales__item{
+ 
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .redes-sociales__icon{
+        height: 30px;
+        width: 50px;
+    }
+    .redes-sociales__item{
+        font-size: 15px;
+    }
+}
+.redes-sociales__icon:hover{
+    text-decoration: none;
+    background: #413f3f;
+}
+
+.redes-sociales__icon--twitter{
+    background: #1DA1F2;
+}
+.redes-sociales__icon--youtube{
+    background: #ff0000;
+}.redes-sociales__icon--facebook{
+    background: #4267b2;
+}
+.redes-sociales__icon--instagram{
+    background: #C13584;
+}
+.redes-sociales__icon--github{
+    background: #333333;
+}
